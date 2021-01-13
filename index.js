@@ -1,7 +1,7 @@
 var readLineSync=require("readline-sync");
 var score=0;
-var userName=readLineSync.question("What is your name?");
-console.log("Welcome"+userName+ "!Do you know vishal");
+var userName=readLineSync.question("What is your name? ");
+console.log("Welcome "+userName+ "! Do you know vishal");
 
 //play function
 function play(question, answer)
@@ -25,7 +25,7 @@ console.log("--------------------------------------");
 //array of object
 var questions=[
     {
-    question: "Where do I live?",
+    question: "Where do I live? ",
     answer: "Udaipur"
     },
     {
